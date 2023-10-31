@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Reverse-1999-tracker/static/css/main.073c9b0a.css",
+    "main.js": "/Reverse-1999-tracker/static/js/main.e61dea04.js",
+    "static/js/787.5dd2d46f.chunk.js": "/Reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js",
+    "static/media/logo.svg": "/Reverse-1999-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Reverse-1999-tracker/index.html",
+    "main.073c9b0a.css.map": "/Reverse-1999-tracker/static/css/main.073c9b0a.css.map",
+    "main.e61dea04.js.map": "/Reverse-1999-tracker/static/js/main.e61dea04.js.map",
+    "787.5dd2d46f.chunk.js.map": "/Reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e61dea04.js"
+  ]
+}
