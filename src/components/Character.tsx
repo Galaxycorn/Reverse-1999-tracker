@@ -16,8 +16,14 @@ const Characters = styled.div`
     justify-content: center;
 `;
 
+const CharactersName = styled.h1`
+    font-size: 20px;
+`;
+
 const ImageCharacter = styled.img<{ isgray: boolean }>`
-    filter: ${({ isgray }) => (isgray ? 'none' : 'grayscale(100%)')};
+    height: 100px;
+    width: 100px;
+    filter: ${({ isgray }) => (isgray ? 'none' : 'grayscale(100%) brightness(50%)')};
 `;
 
 export function Character({ id, name, rarity, type, afflatus }: CharacterProps) {
@@ -52,7 +58,7 @@ export function Character({ id, name, rarity, type, afflatus }: CharacterProps) 
 
     return (
         <Characters onClick={() => setIsObtained(!isObtained)}>
-            <h1>{name}</h1>
+            <CharactersName>{name}</CharactersName>
             <ImageCharacter
                 src={process.env.PUBLIC_URL + `/images/characters/${id}.png`}
                 alt={name + id}

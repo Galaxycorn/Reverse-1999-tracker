@@ -1,8 +1,8 @@
 {
   "name": "reverse-1999-tracker",
   "version": "0.1.0",
-  "homepage": "https://Galaxycorn.github.io/Reverse-1999-tracker",
-  "private": true,
+  "homepage": "https://galaxycorn.github.io/reverse-1999-tracker",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -7,14 +7,13 @@ const CharactersContainer = styled.div`
     margin: 50px;
     display: grid;
     gap: 24px;
-    grid-template-rows: 350px 150px;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 150px 100px;
+    grid-template-columns: repeat(12, 1fr);
     align-items: center;
     justify-items: center;
 `;
 
 export function CharactersPage() {
-    console.log(characterList);
     return (
         <CharactersContainer>
             {characterList.Characters.map(({ id, name, rarity, type, afflatus }) => (
