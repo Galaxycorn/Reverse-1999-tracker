@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Reverse-1999-tracker/static/css/main.073c9b0a.css",
-    "main.js": "/Reverse-1999-tracker/static/js/main.9c2368c2.js",
-    "static/js/787.5dd2d46f.chunk.js": "/Reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js",
-    "index.html": "/Reverse-1999-tracker/index.html",
-    "main.073c9b0a.css.map": "/Reverse-1999-tracker/static/css/main.073c9b0a.css.map",
-    "main.9c2368c2.js.map": "/Reverse-1999-tracker/static/js/main.9c2368c2.js.map",
-    "787.5dd2d46f.chunk.js.map": "/Reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js.map"
+    "main.css": "/reverse-1999-tracker/static/css/main.073c9b0a.css",
+    "main.js": "/reverse-1999-tracker/static/js/main.977c5953.js",
+    "static/js/787.5dd2d46f.chunk.js": "/reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js",
+    "index.html": "/reverse-1999-tracker/index.html",
+    "main.073c9b0a.css.map": "/reverse-1999-tracker/static/css/main.073c9b0a.css.map",
+    "main.977c5953.js.map": "/reverse-1999-tracker/static/js/main.977c5953.js.map",
+    "787.5dd2d46f.chunk.js.map": "/reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9c2368c2.js"
+    "static/js/main.977c5953.js"
   ]
 }
