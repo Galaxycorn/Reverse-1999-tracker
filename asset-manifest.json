@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/reverse-1999-tracker/static/css/main.073c9b0a.css",
-    "main.js": "/reverse-1999-tracker/static/js/main.a0f50921.js",
-    "static/js/787.5dd2d46f.chunk.js": "/reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js",
+    "main.css": "/reverse-1999-tracker/static/css/main.e6c13ad2.css",
+    "main.js": "/reverse-1999-tracker/static/js/main.fbfbafeb.js",
     "index.html": "/reverse-1999-tracker/index.html",
-    "main.073c9b0a.css.map": "/reverse-1999-tracker/static/css/main.073c9b0a.css.map",
-    "main.a0f50921.js.map": "/reverse-1999-tracker/static/js/main.a0f50921.js.map",
-    "787.5dd2d46f.chunk.js.map": "/reverse-1999-tracker/static/js/787.5dd2d46f.chunk.js.map"
+    "main.e6c13ad2.css.map": "/reverse-1999-tracker/static/css/main.e6c13ad2.css.map",
+    "main.fbfbafeb.js.map": "/reverse-1999-tracker/static/js/main.fbfbafeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a0f50921.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.fbfbafeb.js"
   ]
 }
