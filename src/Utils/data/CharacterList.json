@@ -1,0 +1,361 @@
+{
+    "Characters": [
+        {
+            "id": 4,
+            "name": "Lilya",
+            "rarity": 6,
+            "type": "mental",
+            "afflatus": "spirit"
+        },
+        {
+            "id": 30,
+            "name": "APPLe",
+            "rarity": 4,
+            "type": "mental",
+            "afflatus": "star"
+        },
+        {
+            "id": 49,
+            "name": "Door",
+            "rarity": 2,
+            "type": "reality",
+            "afflatus": "intellect"
+        },
+        {
+            "id": 48,
+            "name": "Ms. Radio",
+            "rarity": 2,
+            "type": "mental",
+            "afflatus": "spirit"
+        },
+        {
+            "id": 40,
+            "name": "aliEn T",
+            "rarity": 3,
+            "type": "reality",
+            "afflatus": "star"
+        },
+        {
+            "id": 44,
+            "name": "Bette",
+            "rarity": 3,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 45,
+            "name": "Darley Clatter",
+            "rarity": 3,
+            "type": "mental",
+            "afflatus": "beast"
+        },
+        {
+            "id": 42,
+            "name": "John Titor",
+            "rarity": 3,
+            "type": "reality",
+            "afflatus": "intellect"
+        },
+        {
+            "id": 39,
+            "name": "La Source",
+            "rarity": 3,
+            "type": "mental",
+            "afflatus": "plant"
+        },
+        {
+            "id": 41,
+            "name": "Leilani",
+            "rarity": 3,
+            "type": "reality",
+            "afflatus": "beast"
+        },
+        {
+            "id": 46,
+            "name": "ONiON",
+            "rarity": 3,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 47,
+            "name": "Sputnik",
+            "rarity": 3,
+            "type": "mental",
+            "afflatus": "star"
+        },
+        {
+            "id": 38,
+            "name": "The Fool",
+            "rarity": 3,
+            "type": "mental",
+            "afflatus": "star"
+        },
+        {
+            "id": 43,
+            "name": "Twins Sleep",
+            "rarity": 3,
+            "type": "mental",
+            "afflatus": "spirit"
+        },
+        {
+            "id": 14,
+            "name": "Bunny Bunny",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "beast"
+        },
+        {
+            "id": 31,
+            "name": "Cristallo",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 25,
+            "name": "Eagle",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "plant"
+        },
+        {
+            "id": 37,
+            "name": "Erick",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "star"
+        },
+        {
+            "id": 36,
+            "name": "Mesmer Jr.",
+            "rarity": 4,
+            "type": "mental",
+            "afflatus": "intellect"
+        },
+        {
+            "id": 50,
+            "name": "Mondlicht",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 34,
+            "name": "Ms. Moissan",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 24,
+            "name": "Nick Bottom",
+            "rarity": 4,
+            "type": "mental",
+            "afflatus": "beast"
+        },
+        {
+            "id": 29,
+            "name": "Oliver Fog",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "star"
+        },
+        {
+            "id": 28,
+            "name": "Pavia",
+            "rarity": 4,
+            "type": "mental",
+            "afflatus": "beast"
+        },
+        {
+            "id": 35,
+            "name": "Poltergeist",
+            "rarity": 4,
+            "type": "mental",
+            "afflatus": "spirit"
+        },
+        {
+            "id": 33,
+            "name": "Rabies",
+            "rarity": 4,
+            "type": "reality",
+            "afflatus": "plant"
+        },
+        {
+            "id": 32,
+            "name": "TTT",
+            "rarity": 4,
+            "type": "mental",
+            "afflatus": "star"
+        },
+        {
+            "id": 26,
+            "name": "\u0417\u0438\u043c\u0430",
+            "rarity": 4,
+            "type": "mental",
+            "afflatus": "plant"
+        },
+        {
+            "id": 99,
+            "name": "Baby blue",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "star"
+        },
+        {
+            "id": 19,
+            "name": "Balloon Party",
+            "rarity": 5,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 16,
+            "name": "Bkornblume",
+            "rarity": 5,
+            "type": "reality",
+            "afflatus": "plant"
+        },
+        {
+            "id": 57,
+            "name": "Blonney",
+            "rarity": 5,
+            "type": "reality",
+            "afflatus": "star"
+        },
+        {
+            "id": 15,
+            "name": "Charlie",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "star"
+        },
+        {
+            "id": 23,
+            "name": "Click",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "spirit"
+        },
+        {
+            "id": 17,
+            "name": "Dikke",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "beast"
+        },
+        {
+            "id": 20,
+            "name": "Necrologist",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 21,
+            "name": "Satsuki",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "plant"
+        },
+        {
+            "id": 18,
+            "name": "Sonetto",
+            "rarity": 5,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 13,
+            "name": "Sweetheart",
+            "rarity": 5,
+            "type": "reality",
+            "afflatus": "beast"
+        },
+        {
+            "id": 22,
+            "name": "Tennant",
+            "rarity": 5,
+            "type": "reality",
+            "afflatus": "beast"
+        },
+        {
+            "id": 12,
+            "name": "X",
+            "rarity": 5,
+            "type": "reality",
+            "afflatus": "intellect"
+        },
+        {
+            "id": 7,
+            "name": "A Knight",
+            "rarity": 6,
+            "type": "reality",
+            "afflatus": "spirit"
+        },
+        {
+            "id": 0,
+            "name": "An-an Lee",
+            "rarity": 6,
+            "type": "reality",
+            "afflatus": "plant"
+        },
+        {
+            "id": 5,
+            "name": "Centurion",
+            "rarity": 6,
+            "type": "reality",
+            "afflatus": "beast"
+        },
+        {
+            "id": 1,
+            "name": "Druvis III",
+            "rarity": 6,
+            "type": "mental",
+            "afflatus": "plant"
+        },
+        {
+            "id": 10,
+            "name": "Eternity",
+            "rarity": 6,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 8,
+            "name": "Medicine Pocket",
+            "rarity": 6,
+            "type": "mental",
+            "afflatus": "beast"
+        },
+        {
+            "id": 11,
+            "name": "Ms. NewBabel",
+            "rarity": 6,
+            "type": "reality",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 3,
+            "name": "Regulus",
+            "rarity": 6,
+            "type": "mental",
+            "afflatus": "star"
+        },
+        {
+            "id": 2,
+            "name": "Sotheby",
+            "rarity": 6,
+            "type": "reality",
+            "afflatus": "plant"
+        },
+        {
+            "id": 9,
+            "name": "Voyager",
+            "rarity": 6,
+            "type": "mental",
+            "afflatus": "star"
+        }
+    ]
+}
