@@ -20,10 +20,10 @@ const CharactersName = styled.h1`
     font-size: 20px;
 `;
 
-const ImageCharacter = styled.img<{ isgray: boolean }>`
+const ImageCharacter = styled.img<{ $isgray: boolean }>`
     height: 100px;
     width: 100px;
-    filter: ${({ isgray }) => (isgray ? 'none' : 'grayscale(100%) brightness(50%)')};
+    filter: ${({ $isgray }) => ($isgray ? 'none' : 'grayscale(100%) brightness(50%)')};
 `;
 
 export function Character({ id, name, rarity, type, afflatus }: CharacterProps) {
@@ -62,7 +62,7 @@ export function Character({ id, name, rarity, type, afflatus }: CharacterProps) 
             <ImageCharacter
                 src={process.env.PUBLIC_URL + `/images/characters/${id}.png`}
                 alt={name + id}
-                isgray={isObtained}
+                $isgray={isObtained}
                 onClick={handleClick}
             />
         </Characters>
