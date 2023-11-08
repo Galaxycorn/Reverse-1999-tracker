@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reverse-1999-tracker/static/css/main.e6c13ad2.css",
-    "main.js": "/reverse-1999-tracker/static/js/main.fbfbafeb.js",
+    "main.js": "/reverse-1999-tracker/static/js/main.e0a248c6.js",
     "index.html": "/reverse-1999-tracker/index.html",
     "main.e6c13ad2.css.map": "/reverse-1999-tracker/static/css/main.e6c13ad2.css.map",
-    "main.fbfbafeb.js.map": "/reverse-1999-tracker/static/js/main.fbfbafeb.js.map"
+    "main.e0a248c6.js.map": "/reverse-1999-tracker/static/js/main.e0a248c6.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.fbfbafeb.js"
+    "static/js/main.e0a248c6.js"
   ]
 }
