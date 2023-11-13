@@ -4,6 +4,7 @@ import { CharactersPage } from './pages/CharactersPage';
 import { ThemeProvider } from './Utils/contexts';
 import { Header } from './components/Header';
 import GlobalStyle from './Utils/styles/GlobalStyle';
+import { InventoryPage } from './pages/InventoryPage';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Header />
                 <Routes>
                     <Route path="/" element={<CharactersPage />} />
+                    <Route path="/inventory" element={<InventoryPage />} />
                 </Routes>
             </ThemeProvider>
         </Router>

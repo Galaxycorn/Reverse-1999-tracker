@@ -84,7 +84,15 @@ export function CharactersPage() {
             </FilterWrapper>
             <CharactersContainer>
                 {filteredCharacter.map(({ id, name, rarity, type, afflatus }) => (
-                    <Character key={id} id={id} name={name} rarity={rarity} type={type} afflatus={afflatus} />
+                    <Character
+                        key={id}
+                        id={id}
+                        name={name}
+                        rarity={rarity}
+                        type={type}
+                        afflatus={afflatus}
+                        tracked={true}
+                    />
                 ))}
             </CharactersContainer>
         </div>

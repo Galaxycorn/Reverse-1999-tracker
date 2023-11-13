@@ -7,6 +7,7 @@ interface CharacterProps {
     rarity: number;
     type: string;
     afflatus: string;
+    tracked: boolean;
 }
 
 const Characters = styled.div`
@@ -26,7 +27,7 @@ const ImageCharacter = styled.img<{ $isgray: boolean }>`
     filter: ${({ $isgray }) => ($isgray ? 'none' : 'grayscale(100%) brightness(50%)')};
 `;
 
-export function Character({ id, name, rarity, type, afflatus }: CharacterProps) {
+export function Character({ id, name, rarity, type, afflatus, tracked }: CharacterProps) {
     const [isObtained, setIsObtained] = useState(false);
 
     useEffect(() => {
@@ -38,26 +39,30 @@ export function Character({ id, name, rarity, type, afflatus }: CharacterProps) 
     }, [id]);
 
     const handleClick = () => {
-        const selectedCharacters = localStorage.getItem('characters');
-        let characters: number[] = [];
+        if (tracked) {
+            const selectedCharacters = localStorage.getItem('characters');
+            let characters: number[] = [];
 
-        if (selectedCharacters) {
-            characters = JSON.parse(selectedCharacters);
-        }
+            if (selectedCharacters) {
+                characters = JSON.parse(selectedCharacters);
+            }
 
-        if (isObtained) {
-            const updatedCharacters = characters.filter((characterId) => characterId !== id);
-            localStorage.setItem('characters', JSON.stringify(updatedCharacters));
-            setIsObtained(false);
-        } else {
-            characters.push(id);
-            localStorage.setItem('characters', JSON.stringify(characters));
-            setIsObtained(true);
+            if (isObtained) {
+                const updatedCharacters = characters.filter((characterId) => characterId !== id);
+                localStorage.setItem('characters', JSON.stringify(updatedCharacters));
+                setIsObtained(false);
+            } else {
+                characters.push(id);
+                localStorage.setItem('characters', JSON.stringify(characters));
+                setIsObtained(true);
+            }
         }
     };
 
+    //TODO make it unclickable inside inventory.
+
     return (
-        <Characters onClick={() => setIsObtained(!isObtained)}>
+        <Characters onClick={() => (tracked ? setIsObtained(!isObtained) : null)}>
             <CharactersName>{name}</CharactersName>
             <ImageCharacter
                 src={process.env.PUBLIC_URL + `/images/characters/${id}.png`}

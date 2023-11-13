@@ -356,6 +356,13 @@
             "rarity": 6,
             "type": "mental",
             "afflatus": "star"
+        },
+        {
+            "id": 51,
+            "name": "Mathilda",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "star"
         }
     ]
 }
