@@ -363,6 +363,27 @@
             "rarity": 5,
             "type": "mental",
             "afflatus": "star"
+        },
+        {
+            "id": 53,
+            "name": "Melania",
+            "rarity": 6,
+            "type": "mental",
+            "afflatus": "beast"
+        },
+        {
+            "id": 54,
+            "name": "Pickles",
+            "rarity": 6,
+            "type": "mental",
+            "afflatus": "mineral"
+        },
+        {
+            "id": 55,
+            "name": "Diggers",
+            "rarity": 5,
+            "type": "mental",
+            "afflatus": "plant"
         }
     ]
 }

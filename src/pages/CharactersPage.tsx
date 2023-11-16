@@ -3,17 +3,7 @@ import styled from 'styled-components';
 import characterList from '../Utils/data/characterList.json';
 import { Character } from '../components/Character';
 import { AFFLATUS, RARITY, TYPE } from '../Utils/data/constants';
-
-const CharactersContainer = styled.div`
-    margin: 50px;
-    display: grid;
-    gap: 24px;
-    grid-template-rows: 150px 100px;
-    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-    align-items: center;
-    justify-items: center;
-    position: relative;
-`;
+import { CharactersContainer } from '../Utils/styles/styles';
 
 const FilterWrapper = styled.div`
     display: flex;
